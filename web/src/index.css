@@ -1,0 +1,39 @@
+/**
+ * START --- SETUP TAILWINDCSS EDIT
+ *
+ * `yarn rw setup ui tailwindcss` placed these imports here
+ * to inject Tailwind's styles into your CSS.
+ * For more information, see: https://tailwindcss.com/docs/installation#include-tailwind-in-your-css
+ */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.blue{
+  background-color:#4f5d75;
+}
+
+.navy{
+  background-color:#2D3142;
+}
+
+.orange{
+  color:#EF8354;
+}
+
+.silver{
+  color:#BFC0C0;
+}
+
+.smooth-div {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+
+
+/**
+ * END --- SETUP TAILWINDCSS EDIT
+ */
